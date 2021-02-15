@@ -1,0 +1,249 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'montserrat', sans-serif;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #2b2e4a;
+    text-align: center;
+}
+.white-section {
+    background-color: white;
+    text-align: center;
+}
+h3, p {
+    font-size: 3rem;
+    font-weight: bold;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgb(146, 145, 145);
+}
+
+/* Title Section */
+
+/* *********************
+        Nav Bar
+********************* */
+
+.navbar-area {
+    padding: 2% 10%;
+}
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.nav-item {
+    margin: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+/* *********************
+        title
+********************* */
+.big-heading {
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.title-btn {
+    margin: 5% 1%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.title-img {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 25vw;
+    left: 55%;
+}
+/* Features Section */
+#features {
+    position: relative;
+}
+.feature-box {
+    padding: 5%;
+}
+.feature-icon {
+    padding-bottom: 20px;
+    color: crimson;
+}
+.feature-icon:hover {
+    color: rgb(231, 49, 86);
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #88304e;
+}
+.testimonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 10% 5% 0;
+}
+.testimonial-heading {
+    padding: 0 15%;
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.testimonial-commentor {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Pricing Section */
+.pricing-text h2 {
+    font-size: 3.5rem;
+}
+.pricing-text p {
+    font-weight: 500;
+    color: gray;
+}
+.pricing-button {
+    width: 100%;
+    color: white;
+    background-color: #2b2e4a;
+}
+.pricing-button:hover {
+    color: white;
+    background-color: #1c1e31;
+}
+.pricing-button-primary {
+    width: 100%;
+    color: black;
+    border: 1px solid #2b2e4a;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.pricing-button-primary:hover{
+    color: white;
+    background-color: #2b2e4a;
+}
+/* *************************
+    price-card section
+************************* */
+
+.card-header h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+.card-body h2 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.card-body p {
+    line-height: 2;
+}
+.pricing-button {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0;
+}
+/* CTA Section */
+#cta {
+    background-color: #522546;
+}
+.cta-heading {
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+}
+/* Footer Section */
+
+.footer-icon {
+    margin: 25px 15px;
+}
+.footer-icon:hover {
+    color: rgb(231, 49, 86);
+}
+@media (max-width: 1100px) {
+    
+    .navbar-brand {
+        font-size: 5rem;
+    }
+    .nav-link {
+        font-size: 3.5rem;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(25deg);
+        padding-top: 30px;
+        width: 65%;
+    }   
+    .big-heading {
+        font-size: 10.2rem;
+    }
+    .title-btn {
+        font-size: 4rem;
+        padding: 10px 30px;
+    }
+    h3 {
+        font-size: 11rem;
+    }
+    p {
+        font-size: 4rem;
+        padding-bottom: 15px;
+    }
+    #testimonials {
+        padding: 20% 0 15%;
+    }
+    .testimonial-heading {
+        font-size: 6rem;
+    }
+    .testimonial-img {
+        width: 30%;
+    }
+    .testimonial-commentor {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .press-img {
+        width: 40%;
+    }
+    .pricing-text h2, .card-header h3 {
+        font-size: 6rem;
+    }
+    .pricing-text p {
+        font-size: 3rem;
+    }
+    .card-body h2 {
+        font-size: 7rem;
+        font-weight: bold;
+    }
+    .card-body p {
+        font-size: 3.5rem;
+    }
+    .pricing-button {
+        font-size: 4rem;
+    }
+    .pricing-button-primary{
+        font-size: 4rem;
+    }
+    .card-padding {
+        padding: 20px 0;
+    }
+    .cta-heading {
+        font-size: 9rem;
+        padding-bottom: 60px;
+    }
+    #cta {
+        padding: 140px 0 100px;
+    }
+    #footer {
+        padding: 10% 0;
+    }
+    .copyright {
+        font-size: 2rem;
+    }
+}
